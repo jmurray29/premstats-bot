@@ -95,7 +95,7 @@ def updateStats(fix_id):
         querystring = {"fixture":fix_id}
 
         headers = {
-            "X-RapidAPI-Key": "813ab829bbmsh2264f4492872ca4p153c5ajsndcb3fff07537",
+            "X-RapidAPI-Key": apitoken,
             "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com"
         }
 
